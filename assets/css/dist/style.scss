@@ -1,0 +1,43 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+@import "template/layouts/variables";
+
+@import "template/layouts/all";
+
+@import "template/layouts/header";
+
+@import "template/layouts/main-menu";
+
+@import "template/layouts/mobile-menu";
+
+@import "template/layouts/mobile-media";
+
+@import "template/layouts/search-box";
+
+@import "template/home/features";
+
+@import "template/home/main-section";
+
+@import "template/home/widget1";
+
+@import "template/home/widget2";
+
+@import "template/home/widget3";
+
+@import "template/home/ad-widget";
+
+@import "template/home/video";
+
+@import "template/home/world-widget";
+
+@import "template/home/technology-widget";
+
+@import "template/home/health-widget";
+
+@import "template/home/quiet-widget";
+
+@import "template/home/album-widget";
+
+@import "template/layouts/footer";

@@ -1,0 +1,15 @@
+.widget1{
+  .join{
+    font-size: 20px;
+  }
+
+  a{
+    font-size: 20px;
+    width: 71px;
+    @each $item in $social-media{
+      &[class*="#{nth($item, 1)}"] {
+        background-color: nth($item, 2);
+      }
+    }
+  }
+}

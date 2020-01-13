@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>معرفة وأكثر</title>
+
+    <link rel="stylesheet" href="assets/css/plugins.css">
+
+    <link rel="stylesheet" href="assets/css/jquery.custom-scrollbar.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="fixed-header">
+
+    <div class="overlay"></div>
+
+    <div class="header">
+        <div class="top-header"></div>
+        <div class="container">
+
+            <div class="row pt-2">
+                <div class="col col-md-auto d-none d-sm-block">
+                    <ul class="header-menu d-flex list-unstyled m-0 p-0 justify-content-center">
+                        <li class="ml-3">
+                            <a href="#">من نحن</a>
+                        </li>
+                        <li class="ml-3">
+                            <a href="#">اتصل بنا</a>
+                        </li>
+                        <li class="ml-3">
+                            <a href="#">سياسة الخصوصية</a>
+                        </li>
+                        <li>
+                            <a href="#">الشروط و القوانين</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-auto mr-auto d-none d-md-block">
+                    <div class="header-medias d-flex">
+                        <a href="#" class="instagram mr-3">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="youtube mr-3">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="google mr-3">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                        <a href="#" class="twitter mr-3">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="facebook-f mr-3">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-3 pb-4 pt-lg-4 pb-lg-5 justify-content-lg-center">
+                <div class="col-auto">
+                    <div class="logo">
+                        <a href="#">
+                            <picture>
+                                <source srcset="assets/images/small-logo.png" media="(max-width: 575px)">
+                                <img src="assets/images/logo.png" class="img-fluid" alt="logo">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-auto mr-auto d-flex align-items-center d-lg-none">
+                    <div>
+                        <a href="javascript:;" class="mobile-search"><i class="fas fa-search"></i></a>
+                    </div>
+
+                    <div class="nav-btn mr-4">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main-menu w-100 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="menu d-flex list-unstyled border m-0 p-0 align-items-center">
+                        <li class="small-logo px-4 py-2 d-none">
+                            <a href="#">
+                                <img src="assets/images/small-logo.png">
+                            </a>
+                        </li>
+                        <li class="p-3">
+                            <a href="#">الرئيسية</a>
+                        </li>
+                        <li class="p-3">
+                            <a href="#">أحداث العالم</a>
+                        </li>
+                        <li class="p-3">
+                            <a href="#">تكنولوجيا</a>
+                        </li>
+                        <li class="p-3">
+                            <a href="#">صحة</a>
+                        </li>
+                        <li class="p-3">
+                            <a href="#">هدوء</a>
+                        </li>
+                        <li class="p-3">
+                            <a href="#">المرأة</a>
+                        </li>
+                        <li class="p-3">
+                            <a href="#">منوعات</a>
+                        </li>
+                        <li class="p-3">
+                            <a href="#">عالم الحيوانات</a>
+                        </li>
+                        <li class="search mr-auto border-right">
+                            <a href="#" class="d-block text-center"><i class="fas fa-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <ul class="list-unstyled p-0 m-0">
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">أحداث العالم</a></li>
+            <li><a href="#">تكنولوجيا</a></li>
+            <li><a href="#">صحة</a></li>
+            <li><a href="#">هدوء</a></li>
+            <li><a href="#">المرأة</a></li>
+            <li><a href="#">منوعات</a></li>
+            <li><a href="#">عالم الحيوانات</a></li>
+        </ul>
+    </div>
+
+    <div class="mobile-medias">
+        <div class="d-flex justify-content-center bg-light py-4">
+            <a href="#" class="instagram mx-3">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="youtube mx-3">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#" class="google mx-3">
+                <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="twitter mx-3">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="facebook-f mx-3">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="search-box bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <form class="col-12 col-md-8" action="">
+                    <input type="search" placeholder="ابحث هنا" class="w-100 pl-4">
+                    <button type="submit" class="search"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="features py-4 border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="features-item">
+                        <a href="#" class="features-link d-block position-relative">
+                            <img src="uploads/layer1.jpg" class="img-fluid w-100">
+                            <span class="title text-white px-3 py-1">تكنولوجيا</span>
+                            <p class="text col-9 text-white font-weight-bold m-0">سامسونج تبدأ بيع تلفزيون جديد Frame TV يشبه لوحة فنية</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="features-item">
+                        <a href="#" class="features-link d-block position-relative">
+                            <img src="uploads/layer2.jpg" class="img-fluid w-100">
+                            <span class="title text-white px-3 py-1">منوعات</span>
+                            <p class="text col-9 text-white font-weight-bold m-0">تقرير: حواسب آيماك برو الجديدة تدعم استدعاء سيري دائما على غرار هواتف آيفون</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="features-item">
+                        <a href="#" class="features-link d-block position-relative">
+                            <img src="uploads/layer3.jpg" class="img-fluid w-100">
+                            <span class="title text-white px-3 py-1">أحدات العالم</span>
+                            <p class="text col-9 text-white font-weight-bold m-0">سعر سامسونج نوت 8 سيكون بـ 1000 يورو وهذه مواصفاته</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="features-item">
+                        <a href="#" class="features-link d-block position-relative">
+                            <img src="uploads/layer4.jpg" class="img-fluid w-100">
+                            <span class="title text-white px-3 py-1">تكنولوجيا</span>
+                            <p class="text col-9 text-white font-weight-bold m-0">USB 3.2 نفس الشكل القديم وبسرعة تزيد مرتين عن سابقه</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="features-item">
+                        <a href="#" class="features-link d-block position-relative">
+                            <img src="uploads/layer5.jpg" class="img-fluid w-100">
+                            <span class="title text-white px-3 py-1">منوعات</span>
+                            <p class="text col-9 text-white font-weight-bold m-0">الإعلانات الصوتية قادمة للمساعد المنزلي أمازون إليكسا</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 d-none d-md-block d-lg-none">
+                    <div class="features-item">
+                        <a href="#" class="features-link d-block position-relative">
+                            <img src="uploads/layer3.jpg" class="img-fluid w-100">
+                            <span class="title text-white px-3 py-1">أحدات العالم</span>
+                            <p class="text col-9 text-white font-weight-bold m-0">سعر سامسونج نوت 8 سيكون بـ 1000 يورو وهذه مواصفاته</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="main-section">
+                        <div class="row">
+                            <div class="col-6 mb-4">
+                                <div class="item">
+                                    <a href="#" class="item-link d-block">
+                                        <img src="uploads/main1.jpg" class="img-fluid w-100 mb-2">
+                                        <p class="item-text m-0">الفضاء؛ ذلك الكيان السرمدي الرائع.. سيمفونية الكون الأزلية، تلك التي عُزفت بإبداع مطلق</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <div class="item">
+                                    <a href="#" class="item-link d-block">
+                                        <img src="uploads/main2.jpg" class="img-fluid w-100 mb-2">
+                                        <p class="item-text m-0">الصين تكشف عن تجربة ناجحة لقطار أسرع من الطائرات الحربية !!</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <div class="item">
+                                    <a href="#" class="item-link d-block">
+                                        <img src="uploads/main3.jpg" class="img-fluid w-100 mb-2">
+                                        <p class="item-text m-0">تعرف على سعر ومواصفات آيفون 8 وآيفون X الجديد</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <div class="item">
+                                    <a href="#" class="item-link d-block">
+                                        <img src="uploads/main4.jpg" class="img-fluid w-100 mb-2">
+                                        <p class="item-text m-0">حقائق مذهلة لا تعرفها عن القمر</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <div class="item">
+                                    <a href="#" class="item-link d-block">
+                                        <img src="uploads/main5.jpg" class="img-fluid w-100 mb-2">
+                                        <p class="item-text m-0">عمارة مدهشة: أطول 10 ناطحات سحاب مجدُولة بتصميم رائع حول العالم!</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <div class="item">
+                                    <a href="#" class="item-link d-block">
+                                        <img src="uploads/main6.jpg" class="img-fluid w-100 mb-2">
+                                        <p class="item-text m-0">أمور غامضة عن الجنس البشري لم يتمكن العلم من حلها بعد</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <div class="item">
+                                    <a href="#" class="item-link d-block">
+                                        <img src="uploads/main7.jpg" class="img-fluid w-100 mb-2">
+                                        <p class="item-text m-0">اذا كنت تعتبر نفسك من الاذكياء اليك هذا الخبر السيء</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <div class="item">
+                                    <a href="#" class="item-link d-block">
+                                        <img src="uploads/main8.jpg" class="img-fluid w-100 mb-2">
+                                        <p class="item-text m-0">ذراع تحكم لأجهزة الأندرويد يحول هاتفك إلى بلاي ستيشن 3 !!</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="widget1 border p-3">
+                        <h4 class="join mb-4">انضم إلى أكثر من مليون متابع</h4>
+                        <div class="d-flex flex-wrap justify-content-between">
+                            <a href="#" class="facebook-f text-white text-center py-3 ml-2 mb-2 rounded">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="twitter text-white text-center py-3 ml-2 mb-2 rounded">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="youtube text-white text-center py-3 ml-2 mb-2 rounded">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="instagram text-white text-center py-3 mb-2 rounded">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="widget2 p-3 mt-4">
+                        <h4 class="mail mb-4">القائمة البريدية</h4>
+                        <form action="">
+                            <input type="email" class="mail-input w-100 rounded-pill border p-2" placeholder="البريد الالكتروني">
+                            <button type="button" class="mail-btn rounded-pill border-0 p-2 my-3">اشتراك الآن</button>
+                        </form>
+                    </div>
+
+                    <div class="widget3 border pt-3 mt-4">
+                        <div class="col-12 mb-4">
+                            <h4 href="#" class="widget-title d-inline px-1 position-relative">الأكثر قراءة</h4>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-12 mb-3">
+                                <div class="item">
+                                    <a href="#" class="item-link d-flex">
+                                        <div class="col-5 col-md-4 col-lg-5">
+                                            <img src="uploads/read1.jpg" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-7 col-md-8 col-lg-7 pr-0">
+                                            <p class="item-text m-0">تعرف على جبل نيراجونجو وبحيرته البركانية النشطة!</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <div class="item">
+                                    <a href="#" class="item-link d-flex">
+                                        <div class="col-5 col-md-4 col-lg-5">
+                                            <img src="uploads/read2.jpg" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-7 col-md-8 col-lg-7 pr-0">
+                                            <p class="item-text m-0">من حيث تكاليف التطوير أغلى 10 ألعاب فيديو في التاريخ!</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <div class="item">
+                                    <a href="#" class="item-link d-flex">
+                                        <div class="col-5 col-md-4 col-lg-5">
+                                            <img src="uploads/read3.jpg" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-7 col-md-8 col-lg-7 pr-0">
+                                            <p class="item-text m-0">12 تقنية جديدة للتحقق من الشخصية وصدّ المخترقين</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <div class="item">
+                                    <a href="#" class="item-link d-flex">
+                                        <div class="col-5 col-md-4 col-lg-5">
+                                            <img src="uploads/read4.jpg" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-7 col-md-8 col-lg-7 pr-0">
+                                            <p class="item-text m-0">سامسونج تبدأ بيع تلفزيون جديد Frame TV يشبه لوحة فنية</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <div class="item">
+                                    <a href="#" class="item-link d-flex">
+                                        <div class="col-5 col-md-4 col-lg-5">
+                                            <img src="uploads/read5.jpg" class="img-fluid w-100">
+                                        </div>
+                                        <div class="col-7 col-md-8 col-lg-7 pr-0">
+                                            <p class="item-text m-0">علم أغرب من الخيال  انسخ قلبك بنفسك !</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="ad-widget text-center mt-4">
+                        <a href="#">
+                            <img src="uploads/ad.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video py-5">
+        <div class="container">
+            <div class="row no-gutters">
+
+                <div class=" col-12 col-lg-8">
+                    <div class="video-container">
+
+                        <div class="video-play">
+                            <a class="video-play-link d-block position-relative text-white" href="https://player.vimeo.com/video/378757097?autoplay=1">
+                                <img src="uploads/video1.jpg" class="img-fluid w-100 h-100">
+                                <div class="txt col-4 col-lg-3 px-0 d-none d-sm-block position-absolute">
+                                    <h4 class="video-title mb-3">جديد يوتيوب</h4>
+                                    <p class="video-text p-0 m-0">تعرف على سعر ومواصفات آيفون 8 وآيفون X الجديد</p>
+                                </div>
+                                <span class="youtube position-absolute">
+                                    <i class="fab fa-youtube fa-3x"></i>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="video-player d-none">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class=" col-12 col-lg-4">
+                    <div class="video-list">
+                        <h4 class="list-title text-white m-0 pt-4 pb-2 px-4">الأكثر مشاهدة</h4>
+
+                        <div class="list-items video-skin overflow-auto px-2">
+                            <div class="item py-3 px-4">
+                                <a class="video-play-link d-block" href="https://player.vimeo.com/video/378757097?autoplay=1">
+                                    <div class="d-flex">
+                                        <div class="col-4 px-0">
+                                            <div class="video-img">
+                                                <img src="uploads/video1.jpg" class="img-fluid w-100">
+                                                <span class="video-num"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pr-2 pl-0">
+                                            <p class="list-text m-0">تعرف على سعر ومواصفات آيفون 8 وآيفون X الجديد</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="item py-3 px-4">
+                                <a class="video-play-link d-block" href="https://www.dailymotion.com/embed/video/x7os203?autoPlay=1">
+                                    <div class="d-flex">
+                                        <div class="col-4 px-0">
+                                            <div class="video-img">
+                                                <img src="uploads/video2.jpg" class="img-fluid w-100">
+                                                <span class="video-num"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pr-2 pl-0">
+                                            <p class="list-text m-0">الصين تكشف عن تجربة ناجحة لقطار أسرع من الطائرات الحربية !!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="item py-3 px-4">
+                                <a class="video-play-link d-block" href="https://www.youtube.com/embed/zGNH_lbpmm8?autoplay=1">
+                                    <div class="d-flex">
+                                        <div class="col-4 px-0">
+                                            <div class="video-img">
+                                                <img src="uploads/video3.jpg" class="img-fluid w-100">
+                                                <span class="video-num"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pr-2 pl-0">
+                                            <p class="list-text m-0">من حيث تكاليف التطوير: أغلى 10 ألعاب فيديو في التاريخ!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="item py-3 px-4">
+                                <a class="video-play-link d-block" href="https://player.vimeo.com/video/378751855?autoplay=1">
+                                    <div class="d-flex">
+                                        <div class="col-4 px-0">
+                                            <div class="video-img">
+                                                <img src="uploads/video4.jpg" class="img-fluid w-100">
+                                                <span class="video-num"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pr-2 pl-0">
+                                            <p class="list-text m-0">الإعلانات الصوتية قادمة للمساعد المنزلي أمازون إليكسا</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="item py-3 px-4">
+                                <a class="video-play-link d-block" href="https://www.dailymotion.com/embed/video/x7lm657?autoPlay=1">
+                                    <div class="d-flex">
+                                        <div class="col-4 px-0">
+                                            <div class="video-img">
+                                                <img src="uploads/video5.jpg" class="img-fluid w-100">
+                                                <span class="video-num"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pr-2 pl-0">
+                                            <p class="list-text m-0">مصابيح توفير الطاقة تضعف البصر </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="item py-3 px-4">
+                                <a class="video-play-link d-block" href="https://www.youtube.com/embed/GVKlICOpTo4?autoplay=1">
+                                    <div class="d-flex">
+                                        <div class="col-4 px-0">
+                                            <div class="video-img">
+                                                <img src="uploads/video6.jpg" class="img-fluid w-100">
+                                                <span class="video-num"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pr-2 pl-0">
+                                            <p class="list-text m-0">تعرف على جبل نيراجونجو وبحيرته البركانية النشطة!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="world-widget pt-4">
+        <div class="container">
+            <div class="mb-4">
+                <a href="#" class="widget-title px-1 position-relative">أحداث العالم</a>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/world1.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">أمريكا : عاصفة ثلجية تاريخية تجتاح الولايات الشمالية الشرقية</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/world2.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">قتلى وجرحى بقصف على دمشق </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/world3.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">أفضل أسلحة استخدمت في العالم هذا العام (صور)</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4 d-md-none">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/world1.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">أمريكا : عاصفة ثلجية تاريخية تجتاح الولايات الشمالية الشرقية</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 border-bottom mt-2"></div>
+        </div>
+    </div>
+
+    <div class="technology-widget pt-4">
+        <div class="container">
+            <div class="mb-4">
+                <a href="#" class="widget-title px-1 position-relative">تكنولوجيا</a>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/tech1.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">ذراع تحكم لأجهزة الأندرويد يحول هاتفك إلى بلاي ستيشن 3 !!</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/tech2.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">تعرف على سعر ومواصفات آيفون 8 وآيفون X الجديد</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/tech3.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">تقرير: حواسب آيماك برو الجديدة تدعم استدعاء سيري دائما على غرار هواتف آيفون</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4 d-md-none">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/tech1.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">ذراع تحكم لأجهزة الأندرويد يحول هاتفك إلى بلاي ستيشن 3 !!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 border-bottom mt-2"></div>
+        </div>
+    </div>
+
+    <div class="health-widget pt-4">
+        <div class="container">
+            <div class="mb-4">
+                <a href="#" class="widget-title px-1 position-relative">صحة</a>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/health1.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">أمور غامضة عن الجنس البشري لم يتمكن العلم من حلها بعد</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/health2.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">ثورة في طب العيون.. هل يعيد الأطباء الروس البصر لكفيف؟</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/health3.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">علم أغرب من الخيال: انسخ قلبك بنفسك !</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4 d-md-none">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/health1.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">أمور غامضة عن الجنس البشري لم يتمكن العلم من حلها بعد</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 border-bottom mt-2"></div>
+        </div>
+    </div>
+
+    <div class="quiet-widget pt-4">
+        <div class="container">
+            <div class="mb-4">
+                <a href="#" class="widget-title px-1 position-relative">هدوء</a>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/quiet1.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">اذا كنت تعتبر نفسك من الاذكياء اليك هذا الخبر السيء</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/quiet2.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">عمارة مدهشة: أطول 10 ناطحات سحاب مجدُولة بتصميم رائع حول العالم!</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/quiet3.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">الصين تكشف عن تجربة ناجحة لقطار أسرع من الطائرات الحربية !!</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4 d-md-none">
+                    <div class="item">
+                        <a href="#" class="item-link d-block">
+                            <img src="uploads/quiet1.jpg" class="img-fluid w-100 mb-2">
+                            <p class="item-text m-0">اذا كنت تعتبر نفسك من الاذكياء اليك هذا الخبر السيء</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 border-bottom mt-2"></div>
+        </div>
+    </div>
+
+    <div class="album-widget pt-4 pb-5">
+        <div class="container">
+            <div class="mb-4">
+                <a href="#" class="widget-title px-1 position-relative">ألبومات الصور</a>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="album-box box-1 h-100">
+                        <a href="#" class="album-link d-block position-relative text-white h-100">
+                            <img src="uploads/album1.jpg" class="img-fluid w-100 h-100">
+                            <div class="txt col-6 col-lg-4 px-0 position-absolute">
+                                <span class="img-num mb-3">
+                                    <i class="far fa-clone ml-2"></i>
+                                    34 صورة
+                                </span>
+                                <p class="album-text p-0 m-0">تعرف على مواصفات آيفون 8 وآيفون X الجديد</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="album-box box-2 mb-1">
+                        <a href="#" class="album-link d-block position-relative text-white">
+                            <img src="uploads/album2.jpg" class="img-fluid w-100">
+                            <div class="txt col-7 col-lg-4 px-0 position-absolute">
+                                <span class="img-num mb-3">
+                                    <i class="far fa-clone ml-2"></i>
+                                    34 صورة
+                                </span>
+                                <p class="album-text p-0 m-0">تعرف على مواصفات آيفون 8 وآيفون X الجديد</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="album-box box-2">
+                        <a href="#" class="album-link d-block position-relative text-white">
+                            <img src="uploads/album3.jpg" class="img-fluid w-100">
+                            <div class="txt col-7 col-lg-4 px-0 position-absolute">
+                                <span class="img-num mb-3">
+                                    <i class="far fa-clone ml-2"></i>
+                                    34 صورة
+                                </span>
+                                <p class="album-text p-0 m-0">تعرف على مواصفات آيفون 8 وآيفون X الجديد</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container h-100">
+            <div class="row h-100 flex-column flex-sm-row align-items-center justify-content-center">
+                <div class="col-auto">
+                    <p class="footer-text m-0"><strong>معرفة وأكثر</strong>  جميع الحقوق محفوظة  2018 ©</p>
+                </div>
+                <div class="col-auto mr-sm-auto mt-3 mt-sm-0">
+                    <a href="#">
+                        <img src="assets/images/atyaf.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/jQuery3.4.1.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.custom-scrollbar.js"></script>
+
+    <script type="text/javascript" id="cookieinfo"
+            src="//cookieinfoscript.com/js/cookieinfo.min.js"
+            data-bg="#645862"
+            data-fg="#FFFFFF"
+            data-link="#F1D600"
+            data-cookie="CookieInfoScript"
+            data-text-align="left"
+            data-close-text="Got it!">
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            var $searchExit =  "fas fa-times",
+                $searchIcon = "fas fa-search";
+
+            // video section
+            $('.video .video-play-link').on('click', function(e){
+                e.preventDefault();
+                var $link = $(this).attr('href'),
+                    $parent = $(this).parents('.video');
+
+                $parent.find('.video-play').addClass('d-none');
+                $parent.find('.video-player').removeClass('d-none');
+                $parent.find('.video-player iframe').attr('src', $link);
+            });
+
+            // jquery-custom-scrollbar
+            $(".list-items").customScrollbar({
+                updateOnWindowResize: true,
+                wheelSpeed: 15,
+            });
+
+            // fixed-main-menu
+            if($(window).width() >= 992){
+                if ($(window).scrollTop() > 172){
+                    $("body").addClass("fixed-main-menu");
+                }
+                else{
+                    $("body").removeClass("fixed-main-menu");
+                }
+
+                $(window).scroll(function(){
+                    if ($(window).scrollTop() > 172){
+                        $("body").addClass("fixed-main-menu");
+                    }
+                    else{
+                        $("body").removeClass("fixed-main-menu");
+                    }
+                });
+            }
+
+            $('.header .nav-btn').on('click', function () {
+                $('body').toggleClass('mobile-menu-active');
+                $('body').removeClass('search-box-active');
+                if($('body').hasClass('search-box-active')){
+                    $('.mobile-search').find('i').attr('class', $searchExit);
+                }
+                else{
+                    $('.mobile-search').find('i').attr('class', $searchIcon);
+                }
+            });
+
+            $('.header .mobile-search').on('click', function () {
+                $('body').toggleClass('search-box-active');
+                $('body').removeClass('mobile-menu-active');
+                if($('body').hasClass('search-box-active')){
+                    $('.mobile-search').find('i').attr('class', $searchExit);
+                }
+                else{
+                    $('.mobile-search').find('i').attr('class', $searchIcon);
+                }
+            });
+
+            $('.overlay').on('click', function () {
+                $('body').removeClass('search-box-active');
+                if($('body').hasClass('search-box-active')){
+                    $('.mobile-search').find('i').attr('class', $searchExit);
+                }
+                else{
+                    $('.mobile-search').find('i').attr('class', $searchIcon);
+                }
+            });
+
+        });
+    </script>
+
+</body>
+</html>
